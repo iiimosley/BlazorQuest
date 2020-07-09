@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuest.WASM", "BlazorQuest.WASM\BlazorQuest.WASM.csproj", "{A4FA53B8-9B9D-4962-8375-59F35CFE57FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorQuest.WASM", "BlazorQuest.WASM\BlazorQuest.WASM.csproj", "{A4FA53B8-9B9D-4962-8375-59F35CFE57FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuest.Server", "BlazorQuest.Server\BlazorQuest.Server.csproj", "{A50E66E6-E42E-4D46-A328-C1AA8CAD5647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorQuest.Server", "BlazorQuest.Server\BlazorQuest.Server.csproj", "{A50E66E6-E42E-4D46-A328-C1AA8CAD5647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuest.Domain", "BlazorQuest.Domain\BlazorQuest.Domain.csproj", "{11AF88ED-912E-46E5-9DA4-5A27FCDC694A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorQuest.Domain", "BlazorQuest.Domain\BlazorQuest.Domain.csproj", "{11AF88ED-912E-46E5-9DA4-5A27FCDC694A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorQuest.Component", "BlazorQuest.Component\BlazorQuest.Component.csproj", "{FF750A8B-C51A-4FD1-9090-D859D1CAF5D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorQuest.Component", "BlazorQuest.Component\BlazorQuest.Component.csproj", "{FF750A8B-C51A-4FD1-9090-D859D1CAF5D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
