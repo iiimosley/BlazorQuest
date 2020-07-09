@@ -1,0 +1,18 @@
+﻿@typeparam TEnum
+@using System.ComponentModel.DataAnnotations
+@using System.Reflection;
+
+<span>@DisplayName</span>
+
+@code {
+    [Parameter]
+    public TEnum EnumType { get; set; }
+    [Parameter]
+    public EventCallback<TEnum> EnumTypeChanged { get; set; }
+
+    string DisplayName
+    {
+        get => EnumType.GetType().GetMember(EnumType.ToString()).FirstOrDefault()?
+                       .GetCustomAttribute<DisplayAttribute>()?.Name ?? EnumType.ToString();
+    }
+}

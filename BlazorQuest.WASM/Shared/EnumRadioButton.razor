@@ -1,2 +1,12 @@
-﻿<div>
+﻿@typeparam TEnum
+
+<div>
+    @foreach (var e in Enum.GetValues(SelectedEnum.GetType()))
+    {
+        <label>
+            <input type="radio" class="d-inline-block ml-2" name=@RadName value=@e 
+                   checked=@(SelectedEnum.Equals(e)) @onchange=BindRadioEnumValue>
+            @e
+        </label>
+    }
 </div>

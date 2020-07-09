@@ -1,11 +1,15 @@
 ﻿@page "/radiobinding"
 
-<h3>Radio Binding</h3>
+<h3 class="m-auto text-center">HSTM Job Description</h3>
 
-<div class="m-2">
-    <p>I am a <b>@JobTitle</b> at HealthStream</p>
+<div class="mx-auto my-5 p-3 w-50 border border-info rounded text-center">
+    <div><i>Select an HSTM Job Abbreviation:</i></div>
+    <EnumRadioButton @bind-SelectedEnum=JobTitle></EnumRadioButton>
+    <p class="my-2">I am a <b><EnumDisplay @bind-EnumType=JobTitle></EnumDisplay></b> at HealthStream</p>
 </div>
 
-<div class="m-2">
-    <p>I work at the <b>@OfficeLocation</b> office</p>
+<div class="mx-auto my-5 p-3 w-50 border border-info rounded text-center">
+    <div><i>Select a US State:</i></div>
+    <EnumRadioButton @bind-SelectedEnum=OfficeLocation></EnumRadioButton>
+    <p class="my-2">I work at the <b><EnumDisplay @bind-EnumType=OfficeLocation></EnumDisplay></b> office</p>
 </div>
